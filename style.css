@@ -1,0 +1,191 @@
+*{
+   
+    
+    margin: 0;
+    padding: 0;
+}
+header{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(241, 157, 62);
+    width: 100%;
+   text-decoration: solid;
+    color: rgb(73, 7, 7);
+    padding: 30px;
+  
+
+
+}
+body{
+    background-color: rgb(248, 195, 97);
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color:  rgb(241, 157, 62);
+   text-align: center;
+   padding: 10px;
+  
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+
+}
+h1{
+    font-family: 'Kenia', cursive;
+    text-align: center;
+    font-size: 70px;
+    max-height: 55px;
+}
+#hukym{
+    font-family: 'Shadows Into Light', cursive;
+}
+.para{
+    margin-left: 100px;
+    margin: 100px;
+    border: 1px solid black;
+    padding: 40px;
+}
+.img{
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    border: 100px;
+}
+.aaa{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.list{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.types{
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}  
+.sub{
+    margin-left: 100px;
+   
+}
+h3{
+    align-content: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.glry{
+    background-color: rgb(241, 157, 62);
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+  
+    
+}
+.mm:hover{
+    box-shadow: 4px 4px 4px 4px black;
+}
+
+
+.mm{
+    
+margin: 30px;
+    border-radius: 25px;
+}
+.contact{
+    border: 1px solid black;
+    background-color:rgb(241, 157, 62);
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+button{
+    background-color: rgb(241, 157, 62);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: rgb(241, 160, 67);
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:400px){
+    *{
+        margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+h1{
+    font-size: 50px;
+}
+header{
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(241, 157, 62);
+    width: 400px;
+   text-decoration: solid;
+    color: rgb(73, 7, 7);
+    padding: 0;
+}
+
+nav{
+    width: 400px;
+    position: sticky;
+    top: 0;
+  }
+.para{
+    width: 300px;
+    margin-left: 50px;
+}
+.types{
+    width: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: 100px;
+
+}
+.sub{
+    padding-left: 0;
+}
+.glry{
+    background-color: rgb(241, 157, 62);
+    margin-left: 40px;
+    margin-right: 10px;
+    text-align: center;
+
+
+}
+.mm:hover{
+    box-shadow: 4px 4px 4px 4px black;
+}
+.contact{
+    border: 1px solid black;
+    background-color:rgb(241, 157, 62);
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+}
